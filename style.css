@@ -1,0 +1,26 @@
+/*CABEÇARIO */
+header{
+    background-color: gray;
+    padding: 50px; /*  espaçamento interno  da imagem */
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+     right: 0px;
+     padding-right: 15%;    
+}
+nav li {
+  display: inline;
+    margin-right: 15px;
+    padding-left: 20px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+nav li:hover{
+    font-size: 38px;
+    color: #8B3A36
+}
