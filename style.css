@@ -5,10 +5,13 @@ header{
     padding: 50px; /*  espaçamento interno  da imagem */
     padding-right: 150px;
     padding-bottom: 50px;
+    
    
 }
 .img1{
     height: 190px;
+    position: absolute;
+    top: -30px;
     
     
 }
@@ -19,7 +22,7 @@ header{
 }
 nav{
     position: absolute;
-    top: 110px;
+    top: 50px;
      right: 0px;
      margin-left: 160px;
 }
@@ -31,4 +34,7 @@ nav li {
 nav li:hover{
     font-size: 38px;
     color: #8B3A36
+}
+#img2{
+width: 100%;
 }
