@@ -1,7 +1,19 @@
-/*CABEÇARIO */
+/*CABEÇAlhO */
 header{
     background-color: gray;
+    height: 100px;
     padding: 50px; /*  espaçamento interno  da imagem */
+    padding-right: 150px;
+    padding-bottom: 50px;
+    
+   
+}
+.img1{
+    height: 190px;
+    position: absolute;
+    top: -30px;
+    
+    
 }
 .caixa{
     position: relative;
@@ -10,17 +22,19 @@ header{
 }
 nav{
     position: absolute;
+    top: 50px;
      right: 0px;
-     padding-right: 15%;    
+     margin-left: 160px;
 }
 nav li {
   display: inline;
-    margin-right: 15px;
-    padding-left: 20px;
-    margin-right: 30px;
+    padding-left: 30px;
     font-size: 30px;
 }
 nav li:hover{
     font-size: 38px;
     color: #8B3A36
+}
+#img2{
+width: 100%;
 }
