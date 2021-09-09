@@ -30,11 +30,53 @@ nav li {
   display: inline;
     padding-left: 30px;
     font-size: 30px;
+    text-decoration:none;
+    
+
 }
-nav li:hover{
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(41, 38, 38);
+
+}
+li a:hover{
     font-size: 38px;
     color: #8B3A36
 }
 #img2{
 width: 100%;
+}
+#cabeçalho-produtos{
+    height: 120px;
+    text-align: center;
+      background:#8B3A36;
+      padding-top: 45px;
+      font-size: 45px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+}
+.img3-vinhos{
+    background: rgb(230, 219, 219);
+      display: inline-block;
+      text-align: center;
+     width: 30%;
+     vertical-align: top;
+     margin: o 1.5%;
+     margin-left: 20px;
+     margin-bottom: 10px;
+     padding: 30px 20px;
+     box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.img3-vinhos:hover{
+    background: rgb(158, 109, 109);
+}
+.teste{
+    width: 50px;
+    height: 130px;
 }
