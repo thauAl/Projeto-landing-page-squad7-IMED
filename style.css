@@ -80,3 +80,33 @@ width: 100%;
     width: 50px;
     height: 130px;
 }
+/*titulo sobre*/
+#sobre {
+    font-size: 40px;
+    padding: 40px 40px 50px 50px;
+    text-transform: uppercase;
+    background-color: brown;
+}
+#conteudo-sobre-nos-retangulo{
+    width: 750px;
+    height: 500px;
+    background-color: brown;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 35px ;
+   
+}
+
+/*paragrafos sobre nós*/
+.conteudo-sobre {
+    width: 42%;
+    font-size: 20px;
+    padding: 40px 40px 20px 20px;
+    text-align: justify;
+
+}
+/*Palavras destacadas "sobre nós"*/
+em{
+   font-weight: bold;
+   font-style: italic;
+}
