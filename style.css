@@ -110,3 +110,85 @@ em{
    font-weight: bold;
    font-style: italic;
 }
+
+
+
+/*----Todo conteudo do footer/rodape----*/
+
+/*----Rodape Superior----*/
+
+.rodape1{
+    background-image: url("vinicola/fundoContatos.jpg");
+    background-size: cover;
+    color: white;
+
+}
+
+.rodape-quadrado1{
+    background: #392620;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px;
+    text-align: left;
+    width: 50%;
+    height: 300px;
+
+}
+
+.quadradoTitulo{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.rodape-lista{
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.iconeImagem{
+    width: 40px;
+    height: 40px;
+    padding-right: 40px;
+}
+
+.rodapeQuadrado2{
+    background-color: #392620;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: 100px;
+
+}
+
+.quadrado2Descricao{
+    margin-left: 10px;
+}
+
+
+/*----Rodape inferior----*/
+
+.rodape2{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+
+}
+
+.logoContato{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+
+}
+
+.copyright{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
