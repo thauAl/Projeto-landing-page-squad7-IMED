@@ -90,6 +90,10 @@ width: 100%;
     text-transform: uppercase;
     background-color: brown;
 }
+#banner {
+    background-image: url(vinicola/fundo\ pagina\ sobre\ nos.jpg);
+    width: 100%;
+}
 #conteudo-sobre-nos-retangulo{
     width: 750px;
     height: 500px;
