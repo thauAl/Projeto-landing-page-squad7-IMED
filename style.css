@@ -183,12 +183,12 @@ em{
     width: 250px;
     height: 250px;
     box-sizing: border-box;
-
+ 
 }
 
 .copyright{
     color: white;
     font-size: 15px;
-    padding-bottom: 20px;
-
+    padding-bottom: 50px;
+    
 }
