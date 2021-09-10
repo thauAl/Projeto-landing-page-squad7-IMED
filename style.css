@@ -6,7 +6,7 @@ header{
     padding-right: 150px;
     padding-bottom: 50px;
     
-   
+
 }
 .img1{
     height: 190px;
@@ -51,11 +51,14 @@ width: 100%;
 #cabeçalho-produtos{
     height: 120px;
     text-align: center;
-      background:#8B3A36;
+      background:#6b6160;
       padding-top: 45px;
       font-size: 45px;
       margin-top: 40px;
-      margin-bottom: 10px;
+      
+}
+#produtos{
+    background: #5f2522;
 }
 .img3-vinhos{
     background: rgb(230, 219, 219);
@@ -65,7 +68,8 @@ width: 100%;
      vertical-align: top;
      margin: o 1.5%;
      margin-left: 20px;
-     margin-bottom: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
      padding: 30px 20px;
      box-sizing: border-box;
     border-color: black;
