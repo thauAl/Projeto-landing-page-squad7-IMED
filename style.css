@@ -2,16 +2,17 @@
 header{
     background-color: gray;
     height: 100px;
-    padding: 50px; /*  espaçamento interno  da imagem */
-    padding-right: 150px;
     padding-bottom: 50px;
     
-
 }
+
 .img1{
-    height: 190px;
     position: absolute;
+    left: -130px;
+    height: 190px;
     top: -30px;
+   margin-right: 20px;
+   
     
     
 }
@@ -22,15 +23,17 @@ header{
 }
 nav{
     position: absolute;
-    top: 50px;
+    top: 80px;
      right: 0px;
-     margin-left: 160px;
+     margin-left: 10px
 }
 nav li {
-  display: inline;
-    padding-left: 30px;
-    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  display: inline-block;
+    font-size: 20px;
     text-decoration:none;
+    text-align: center;
     
 
 }
@@ -123,8 +126,9 @@ em{
 
 #página-promoções{
     background-image: url("vinicola/fundo2.jpeg");
-    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
     
 }
 
@@ -137,8 +141,8 @@ em{
 }
 .imagem-promoção {
     text-align: center;
-    width: 185px;
-    height: 185px;
+    width: 75px;
+    height: 100px;
     padding: 30px 30px 30px 30px;
     
 }
