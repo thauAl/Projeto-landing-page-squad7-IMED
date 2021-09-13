@@ -118,7 +118,86 @@ em{
    font-style: italic;
 }
 
+/*conteudo-promoções*/
 
+
+#página-promoções{
+    background-image: url("vinicola/fundo2.jpeg");
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.título-promoções{
+    color: white;
+    font-size: 40px;
+    padding: 40px 40px 50px 50px;
+    text-transform: uppercase;
+    background-color: gray;
+}
+.imagem-promoção {
+    text-align: center;
+    width: 185px;
+    height: 185px;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.promoções{
+    text-align: center;
+}
+
+.promoções li{
+	display: inline-block;
+	text-align: center;
+	width: 330px;
+    height: 570px;
+    margin: 65px 2% 0 0;
+	vertical-align: top;
+    border: 10px;
+    border-style: double;
+    border-color:#000000 ;
+	box-sizing: border-box;
+    border-radius: 0 0 20px 20px;
+    background-color:#8B3A36 ;
+	cursor: pointer;
+}
+
+.Título-promoção{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 35px;
+    vertical-align: text-top;
+    font-size: 25px;
+
+}
+
+.descrição-promoção{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 32px;
+}
+
+.preço-promoção{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.promoções li:hover {
+	border-color: #5c0606;
+}
+
+.promoções li:active {
+	border-color: #973131;	
+}
+
+.promoções li:hover h2,p {
+	font-size: 28px;
+}
+/* conteudo-promoções*/
 
 /*----Todo conteudo do footer/rodape----*/
 
