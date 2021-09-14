@@ -124,16 +124,13 @@ em{
 /*conteudo-promoções*/
 
 #página-promoções{
-<<<<<<< HEAD
-    background-image: url("vinicola/fundo2.jpeg");
+
+    background-image: linear-gradient(gray, white,brown);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    
-=======
-    background-image: linear-gradient(gray, white,brown)
->>>>>>> 3e491e77b9bb1cb2ec611b8766915dbb3c37c852
 }
+
 
 .título-promoções{
     color: black;
