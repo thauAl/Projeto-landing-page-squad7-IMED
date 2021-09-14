@@ -123,17 +123,20 @@ em{
 
 /*conteudo-promoções*/
 
-
 #página-promoções{
+<<<<<<< HEAD
     background-image: url("vinicola/fundo2.jpeg");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     
+=======
+    background-image: linear-gradient(gray, white,brown)
+>>>>>>> 3e491e77b9bb1cb2ec611b8766915dbb3c37c852
 }
 
 .título-promoções{
-    color: white;
+    color: black;
     font-size: 40px;
     padding: 40px 40px 50px 50px;
     text-transform: uppercase;
@@ -143,20 +146,18 @@ em{
     text-align: center;
     width: 75px;
     height: 100px;
-    padding: 30px 30px 30px 30px;
-    
+    padding: 30px 30px 30px 30px;  
 }
-
-.promoções{
+.Lista-promoções{
     text-align: center;
 }
 
-.promoções li{
+.Lista-promoções li{
 	display: inline-block;
 	text-align: center;
 	width: 330px;
-    height: 570px;
-    margin: 65px 2% 0 0;
+    height: 560px;
+    margin: 65px 2% 65px 0;
 	vertical-align: top;
     border: 10px;
     border-style: double;
@@ -168,39 +169,39 @@ em{
 }
 
 .Título-promoção{
-    color: white;
     text-align: center;
     font-weight: bold;
     padding: 35px;
     vertical-align: text-top;
     font-size: 25px;
-
 }
 
 .descrição-promoção{
     text-align: center;
-    color: white;
-    font-size: 15px;
-    padding: 32px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.imagem-promoção{
+    text-align: center;
+    width: 185px;
+    height: 185px;
+    padding: 30px 30px 30px 30px;
 }
 
 .preço-promoção{
-    color: white;
     text-align: center;
     padding-top: 15px;
 }
 
-.promoções li:hover {
+.Lista-promoções li:hover {
 	border-color: #5c0606;
 }
 
-.promoções li:active {
-	border-color: #973131;	
-}
-
-.promoções li:hover h2,p {
+.Lista-promoções li:hover h2,p {
 	font-size: 28px;
 }
+
 /* conteudo-promoções*/
 
 /*----Todo conteudo do footer/rodape----*/
