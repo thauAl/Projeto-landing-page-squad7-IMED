@@ -1,9 +1,11 @@
-/*CABEÇAlhO */
+body{
+    font-family: 'Kaisei Tokumin', serif;
+}
+
 header{
     background-color: gray;
     height: 100px;
     padding-bottom: 50px;
-    
 }
 
 .img1{
@@ -11,120 +13,137 @@ header{
     left: -130px;
     height: 190px;
     top: -30px;
-   margin-right: 20px;
-   
-    
-    
+    margin-right: 20px;
 }
+
 .caixa{
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
+
 nav{
     position: absolute;
     top: 80px;
-     right: 0px;
-     margin-left: 10px
+    right: 0px;
+    margin-left: 10px
 }
+
 nav li {
     margin-left: 10px;
     margin-right: 10px;
-  display: inline-block;
+    display: inline-block;
     font-size: 20px;
     text-decoration:none;
     text-align: center;
-    
-
 }
+
 li a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bolder;
     color: rgb(41, 38, 38);
-
 }
+
 li a:hover{
-    font-size: 38px;
+    font-size: 8px;
     color: #8B3A36
 }
+
+main{
+    background-color: #8B3A36;
+}
+
 #img2{
-width: 100%;
+    width: 100%;
 }
+
 #cabeçalho-produtos{
-    height: 120px;
-    text-align: center;
-      background:#6b6160;
-      padding-top: 45px;
-      font-size: 45px;
-      margin-top: 40px;
-      
+    height: 100px;
+    text-transform: uppercase;
+    background:grey;
+    padding: 40px 40px 10px 50px;
+    font-size: 45px;
 }
+
 #produtos{
     background: #5f2522;
 }
+
 .img3-vinhos{
     background: rgb(230, 219, 219);
-      display: inline-block;
-      text-align: center;
-     vertical-align: top;
-     margin: o 1.5%;
-     margin-left: 35px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-     padding: 30px 20px;
-     box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: o 1.5%;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
     border-color: black;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
 }
+
 .img3-vinhos:hover{
     background: rgb(158, 109, 109);
 }
+
 .teste{
     width: 50px;
     height: 130px;
 }
+
 /*titulo sobre*/
+
 #sobre {
     font-size: 40px;
     padding: 40px 40px 50px 50px;
     text-transform: uppercase;
-    background-color: brown;
+    background-color: gray;
 }
+
 #banner {
     background-image: url(vinicola/fundo\ pagina\ sobre\ nos.jpg);
     width: 100%;
 }
+
 #conteudo-sobre-nos-retangulo{
+    font-size: 10px;
     width: 750px;
-    height: 500px;
+    height: 600px;
     background-color: brown;
     position: absolute;
-    margin-top: 35px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 200px;
     margin-left: 35px ;
-   
 }
 
 /*paragrafos sobre nós*/
+
 .conteudo-sobre {
     width: 42%;
     font-size: 20px;
     padding: 40px 40px 20px 20px;
     text-align: justify;
-
 }
+
 /*Palavras destacadas "sobre nós"*/
+
 em{
    font-weight: bold;
    font-style: italic;
 }
 
+#lista-sobre{
+    font-size: 30px;
+}
+
 /*conteudo-promoções*/
 
 #página-promoções{
-
     background-image: linear-gradient(gray, white,brown);
     background-repeat: no-repeat;
     width: 100%;
@@ -139,22 +158,24 @@ em{
     text-transform: uppercase;
     background-color: gray;
 }
+
 .imagem-promoção {
     text-align: center;
     width: 75px;
     height: 100px;
     padding: 30px 30px 30px 30px;  
 }
+
 .Lista-promoções{
     text-align: center;
 }
 
-.Lista-promoções li{
+.Promoções li{
 	display: inline-block;
 	text-align: center;
 	width: 330px;
     height: 560px;
-    margin: 65px 2% 65px 0;
+    margin: 65px 2% 65px 50px;
 	vertical-align: top;
     border: 10px;
     border-style: double;
@@ -209,7 +230,6 @@ em{
     background-image: url("vinicola/fundo pagina contatos.jpg");
     background-size: cover;
     color: white;
-
 }
 
 .rodape-quadrado1{
@@ -223,7 +243,6 @@ em{
     text-align: left;
     width: 50%;
     height: 300px;
-
 }
 
 .quadradoTitulo{
@@ -234,7 +253,6 @@ em{
 .rodape-lista{
     padding-bottom: 20px;
     box-sizing: border-box;
-
 }
 
 .iconeImagem{
@@ -250,13 +268,11 @@ em{
     padding: 20px;
     margin-left: 50%;
     margin-top: 100px;
-
 }
 
 .quadrado2Descricao{
     margin-left: 10px;
 }
-
 
 /*----Rodape inferior----*/
 
@@ -264,19 +280,26 @@ em{
     background-color: black;
     text-align: center;
     width: 100%;
-
 }
 
 .logoContato{
     width: 250px;
     height: 250px;
     box-sizing: border-box;
- 
 }
 
 .copyright{
     color: white;
     font-size: 15px;
     padding-bottom: 50px;
-    
+}
+
+@media screen and (max-width: 480px){
+    body{
+    width: auto;
+    }
+    img1{
+        width: auto;
+    }
+
 }
