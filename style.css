@@ -283,9 +283,8 @@ em{
 }
 
 .logoContato{
-    width: 250px;
-    height: 250px;
-    box-sizing: border-box;
+    
+    width: 10em;
 }
 
 .copyright{
