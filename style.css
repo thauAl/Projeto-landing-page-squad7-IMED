@@ -46,7 +46,7 @@ li a{
 }
 
 li a:hover{
-    font-size: 8px;
+    font-size: 29px;
     color: #8B3A36
 }
 
@@ -93,7 +93,7 @@ main{
 
 .teste{
     width: 50px;
-    height: 130px;
+    height: 100px;
 }
 
 /*titulo sobre*/
@@ -111,13 +111,13 @@ main{
 }
 
 #conteudo-sobre-nos-retangulo{
-    font-size: 10px;
-    width: 750px;
-    height: 600px;
+    font-size: 25px;
+    width: 650px;
+    height: 590px;
     background-color: brown;
     position: absolute;
     padding: 20px 20px 20px 20px;
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 35px ;
 }
 
@@ -125,7 +125,6 @@ main{
 
 .conteudo-sobre {
     width: 42%;
-    font-size: 20px;
     padding: 40px 40px 20px 20px;
     text-align: justify;
 }
@@ -138,7 +137,7 @@ em{
 }
 
 #lista-sobre{
-    font-size: 30px;
+    font-size: 19px;
 }
 
 /*conteudo-promoções*/
@@ -216,8 +215,9 @@ em{
 	border-color: #5c0606;
 }
 
-.Lista-promoções li:hover h2,p {
-	font-size: 28px;
+.Promoções li:hover {
+    width: 350px;
+    height: 580px;
 }
 
 /* conteudo-promoções*/

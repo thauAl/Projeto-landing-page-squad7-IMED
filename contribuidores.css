@@ -32,7 +32,7 @@ width: 1100px;
     position: relative;
     width: 320px;
     height: 320px;
-    margin: 20px;
+    margin: 50px;
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -62,7 +62,7 @@ width: 1100px;
 .squad .card .box .imgBx .imgens
 {
     margin-top: 60px;
-    margin-right: 30px;
+    margin-right: 50px;
     padding-bottom: 80px;
     position: absolute;
     top: 0;
