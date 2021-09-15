@@ -1,5 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/*font-family: 'Bebas Neue', cursive;*/
+
+
+  @media (min-aspect-ratio: 16/9) {
+    #videoBG {
+      width: 100%;
+      height: auto;
+      top: 0;
+    }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    #videoBG {
+      width: auto;
+      height: 100%;
+      top: 0;
+    }
+  }
+
+
+* {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#videoBG {
+    position: fixed;
+    z-index: -1;
+  }
+
+#topo-titulo {
+    padding-top: 650px;
+}
+
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 40px 50px 50px;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-top: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.479);
+}
+
 body{
     font-family: 'Kaisei Tokumin', serif;
+    
 }
 
 header{
@@ -43,16 +91,19 @@ li a{
     text-decoration: none;
     font-weight: bolder;
     color: rgb(41, 38, 38);
+    transition: 1s;
 }
 
 li a:hover{
-    font-size: 29px;
-    color: #8B3A36
+    font-size: 25px;
+    color: #8B3A36;
+    padding-left: 5px;
+    padding-right:5px;
 }
 
-main{
+/* main{
     background-color: #8B3A36;
-}
+} */
 
 #img2{
     width: 100%;
@@ -61,13 +112,16 @@ main{
 #cabeçalho-produtos{
     height: 100px;
     text-transform: uppercase;
-    background:grey;
     padding: 40px 40px 10px 50px;
     font-size: 45px;
 }
 
 #produtos{
     background: #5f2522;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
 }
 
 .img3-vinhos{
@@ -85,6 +139,9 @@ main{
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
+    height: 350px;
+    width: 20%;
+    transition: 1s;
 }
 
 .img3-vinhos:hover{
@@ -93,32 +150,34 @@ main{
 
 .teste{
     width: 50px;
-    height: 100px;
+    height: auto;
 }
 
 /*titulo sobre*/
 
 #sobre {
     font-size: 40px;
+    text-align: center;
+    font-weight: bold;
     padding: 40px 40px 50px 50px;
     text-transform: uppercase;
-    background-color: gray;
 }
 
-#banner {
-    background-image: url(vinicola/fundo\ pagina\ sobre\ nos.jpg);
-    width: 100%;
-}
-
-#conteudo-sobre-nos-retangulo{
+.bg-sobre{
     font-size: 25px;
-    width: 650px;
-    height: 590px;
+    width: 50%;
+    height: auto;
     background-color: brown;
     position: absolute;
     padding: 20px 20px 20px 20px;
     margin-top: 170px;
     margin-left: 35px ;
+    border-radius: 50px;
+}
+
+.bg-sobre-nos{
+width: 100%;
+border-radius: 50px;
 }
 
 /*paragrafos sobre nós*/
@@ -143,19 +202,11 @@ em{
 /*conteudo-promoções*/
 
 #página-promoções{
-    background-image: linear-gradient(gray, white,brown);
+    background-image: linear-gradient(rgb(128, 128, 128), white,brown);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-}
-
-
-.título-promoções{
-    color: black;
-    font-size: 40px;
-    padding: 40px 40px 50px 50px;
-    text-transform: uppercase;
-    background-color: gray;
+    opacity: 1;
 }
 
 .imagem-promoção {
@@ -183,6 +234,9 @@ em{
     border-radius: 0 0 20px 20px;
     background-color:#8B3A36 ;
 	cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    border-radius: 20px;
 }
 
 .Título-promoção{
@@ -216,8 +270,8 @@ em{
 }
 
 .Promoções li:hover {
-    width: 350px;
-    height: 580px;
+    transform: scale(1.1);
+
 }
 
 /* conteudo-promoções*/

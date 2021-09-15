@@ -2,10 +2,16 @@
 <html>
     <head>
      <meta charset="UTF-8">
+     
      <title>Cave de pedra</title>
      <link rel="stylesheet" href="reset.css">
      <link rel="stylesheet" href="style.css">
      <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+     <link
+     rel="shortcut icon"
+     href="vinicola/favico.ico"
+     type="image/x-icon"
+   />
     </head>
     <body>
    <header>
@@ -23,14 +29,16 @@
          
    </div>
    </header>
+
+   <video id="videoBG" autoplay muted loop>
+      <source src="vinicola/vinicola-video.mp4" type="video/mp4" />
+    </video>
    
    <main>
-      <video width="100%" height="100%" autoplay muted loop> 
-            <source src="vinicola/vinicola-video.mp4" type="video/mp4">
-          </video>
-      <section class="sobre-nós">
-            <h2 id="sobre"> <a name ="Sobre-nos"> Sobre nós </a></h2>
-            <div id="conteudo-sobre-nos-retangulo">
+
+      <section class="sobre-nós" id="topo-titulo">
+            <h2 class="titulo"> <a name ="Sobre-nos"> Sobre nós </a></h2>
+            <div class="bg-sobre">
                   
                   <p>
                   A vinícola Cave de Pedra foi construída no ano de 1997 e é composta por dois castelos. Tendo sua arquitetura com pedras de basalto que garantem que os vinhos permaneçam com 18 graus em seu espaço de repouso. 
@@ -44,29 +52,19 @@
                         
                   <p>
                   <em>Linha Rosa Negra:</em> Composta por vinhos suaves e finos. </p><br>
-                        
-                  <ul id="lista-sobre">
-                  <li>Vinícola Boutique Cave de Pedra oferece também:</li>
-                  <li>Guiadas</li>
-                  <li>Degustações Personalizadas</li>
-                  <li>Salão para Eventos</li>
-                  <li>Espaço para Fotos Profissionais</li><br>
-            </ul>
+
             </div>
-            <img id="banner"src="vinicola\Fundo-Foto-Página-Sobre-Nós.jpg">
+            <img class="bg-sobre-nos"src="vinicola\fundo-sobre-nos.jpg">
       </section>  
 
-                      <div id="cabeçalho-produtos">
+                <!-- PRODUTOS -->
 
-                        <h2><a name="Produtos"></a>Produtos</a></h2>
+                      <div class="titulo">
+
+                        <h2 class="titulo"><a name="Produtos"></a>Produtos</a></h2>
 
                       </div>
                   <ul id="produtos">
-                        <li class="img3-vinhos"  >
-                              <img  class="teste" src="vinicola/Vinho-Merlot.png" alt="vinho seco merlot">
-                              <p>Vinho tinto seco Merlot</p>
-                              <p>R$ 61,00</p>
-                        </li>
                         <li class="img3-vinhos">
                               <img class="teste" src="vinicola/Vinho-Chardonnay.png" alt="vinho Chardonnay">
                               <p>Vinho branco Chardonnay</p>
@@ -110,7 +108,7 @@
                   </ul>      
    </main>
    <section id="página-promoções">
-      <div class="título-promoções"> <a name = "Promoções"> Promoções </a></div>
+      <div class="titulo"> <a name = "Promoções"> Promoções </a></div>
       
           <ul class="Promoções">
               <li class="promoção1">
