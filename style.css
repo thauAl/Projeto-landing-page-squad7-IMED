@@ -120,8 +120,8 @@ li a:hover{
     background: #5f2522;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
+    margin-bottom: 5vw;
+    border-radius: 20px;
 }
 
 .img3-vinhos{
@@ -142,6 +142,7 @@ li a:hover{
     height: 350px;
     width: 20%;
     transition: 1s;
+    margin-left: 4%;
 }
 
 .img3-vinhos:hover{
@@ -223,9 +224,9 @@ em{
 .Promoções li{
 	display: inline-block;
 	text-align: center;
-	width: 330px;
-    height: 560px;
-    margin: 65px 2% 65px 50px;
+	width: 20%;
+    height: 600px;
+    margin: 65px 2% 65px 9%;
 	vertical-align: top;
     border: 10px;
     border-style: double;
@@ -251,6 +252,7 @@ em{
     text-align: center;
     font-size: 20px;
     padding: 30px;
+    
 }
 
 .imagem-promoção{
